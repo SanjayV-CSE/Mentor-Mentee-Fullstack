@@ -1,31 +1,47 @@
 /* SignupForm.css */
 
-.form-group {
-    margin-bottom: 1rem; /* Add margin between form groups */
+.signup-form {
+    width: 300px; /* Set the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
   }
   
-  .form-label {
-    font-weight: bold; /* Make form labels bold */
+  .signup-form h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add margin bottom */
   }
   
-  .form-control {
-    border: 1px solid #ced4da; /* Add border to form controls */
-    border-radius: 0; /* Remove border radius */
+  .signup-form label {
+    display: block; /* Display labels as blocks */
+    margin-bottom: 10px; /* Add margin bottom */
   }
   
-  .form-control:focus {
-    border-color: #007bff; /* Change border color on focus */
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add box shadow on focus */
+  .signup-form input {
+    width: 100%; /* Set input width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 15px; /* Add margin bottom */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
   }
   
-  .btn-primary {
-    background-color: #007bff; /* Set primary button background color */
-    border-color: #007bff; /* Set primary button border color */
+  .signup-form button {
+    width: 100%; /* Set button width to 100% */
+    padding: 10px; /* Add padding */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
   }
   
-  .btn-primary:hover {
+  .signup-form button:hover {
     background-color: #0056b3; /* Change button background color on hover */
-    border-color: #0056b3; /* Change button border color on hover */
+  }
+  
+  .signup-form button:last-child {
+    margin-top: 10px; /* Add margin top to the last button */
   }
   
   /* Add more styles as needed */

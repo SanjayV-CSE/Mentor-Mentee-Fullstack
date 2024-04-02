@@ -1,6 +1,7 @@
 import React from 'react';
+import './SignupForm.css'
 
-const SignupForm = ({ onClose, onSubmit }) => {
+const SignupForm = ({onClose, onSubmit }) => {
   return (
     <div className="signup-form">
       <h2>Sign Up</h2>
