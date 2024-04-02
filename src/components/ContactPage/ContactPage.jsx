@@ -22,7 +22,7 @@ const ContactPage = () => {
           </div>
           <div className="form-group">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <textarea id="message" name="message" rows="5" required />
           </div>
           <button type="submit">Send Message</button>
         </form>
